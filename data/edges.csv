@@ -1,0 +1,73 @@
+LocationID_1,LocationID_2,Name_1,Name_2,Time
+1,2,Hume Hall,Graham Hall,3
+1,4,Hume Hall,Rawlings Hall,2
+1,50,Hume Hall,Jennings Hall,4
+2,4,Graham Hall,Rawlings Hall,3
+2,50,Graham Hall,Jennings Hall,3
+2,54,Graham Hall,Tolbert Hall,2
+3,4,Broward Hall,Rawlings Hall,4
+3,6,Broward Hall,Marston Science Library,7
+3,5,Broward Hall,J. Wayne Reitz Union,9
+4,5,Rawlings Hall,J. Wayne Reitz Union,6
+5,6,J. Wayne Reitz Union,Marston Science Library,10
+5,7,J. Wayne Reitz Union,Computer Science & Engineering,5
+5,8,J. Wayne Reitz Union,The Hub,4
+5,16,J. Wayne Reitz Union,Weil Hall,8
+6,15,Marston Science Library,Newell Hall,3
+6,16,Marston Science Library,Weil Hall,2
+6,39,Marston Science Library,Music Building,6
+7,8,Computer Science & Engineering,The Hub,2
+7,49,Computer Science & Engineering,New Engineering Building,6
+8,20,The Hub,McCarty Hall A,5
+8,44,The Hub,Chemical Engineering Building,4
+8,45,The Hub,Benton Hall,3
+9,10,Ben Hill Griffin Stadium,Library West,11
+9,32,Ben Hill Griffin Stadium,Florida Gymnasium,4
+9,37,Ben Hill Griffin Stadium,Keene-Flint Hall,6
+9,53,Ben Hill Griffin Stadium,Fletcher Hall,5
+10,11,Library West,Smathers Library,1
+10,12,Library West,Plaza of the Americas,2
+10,35,Library West,Pugh Hall,4
+11,12,Smathers Library,Plaza of the Americas,2
+11,22,Smathers Library,Heavener Hall of Business,3
+11,31,Smathers Library,Tigert Hall,2
+12,13,Plaza of the Americas,Century Tower,1
+12,14,Plaza of the Americas,Turlington Hall,3
+12,21,Plaza of the Americas,University Auditorium,3
+12,27,Plaza of the Americas,Peabody Hall,4
+13,14,Century Tower,Turlington Hall,2
+13,15,Century Tower,Newell Hall,5
+13,23,Century Tower,Carleton Auditorium,4
+14,17,Turlington Hall,Little Hall,7
+14,23,Turlington Hall,Carleton Auditorium,2
+14,24,Turlington Hall,Grinter Hall,3
+14,27,Turlington Hall,Peabody Hall,2
+14,38,Turlington Hall,Anderson Hall,1
+15,35,Newell Hall,Pugh Hall,3
+15,18,Newell Hall,Norman Hall,2
+16,19,Weil Hall,Beaty Towers,9
+16,42,Weil Hall,Williamson Hall,4
+17,18,Little Hall,Norman Hall,3
+17,25,Little Hall,Matherly Hall,3
+18,25,Norman Hall,Matherly Hall,1
+18,34,Norman Hall,Gerson Hall,1
+19,41,Beaty Towers,Bryan Hall,2
+20,55,McCarty Hall A,Keys Residential Complex,3
+21,22,University Auditorium,Heavener Hall of Business,1
+22,23,Heavener Hall of Business,Carleton Auditorium,1
+23,24,Carleton Auditorium,Grinter Hall,2
+24,28,Grinter Hall,Walker Hall,1
+24,30,Grinter Hall,Criser Hall,1
+25,34,Matherly Hall,Gerson Hall,1
+26,36,Fine Arts Complex,Dauer Hall,2
+29,32,Rolfs Hall,Florida Gymnasium,3
+30,31,Criser Hall,Tigert Hall,1
+33,52,Levin College of Law,Buckman Hall,1
+37,38,Keene-Flint Hall,Anderson Hall,1
+40,51,Architecture Building,Murphree Hall,1
+43,7,Malachowsky Hall,Computer Science & Engineering,2
+43,6,Malachowsky Hall,Marston Science Library,1
+45,46,Benton Hall,Larsen Hall,2
+45,47,Benton Hall,Nuclear Sciences Building,1
+46,47,Larsen Hall,Nuclear Sciences Building,1
+49,56,New Engineering Building,New Physics Building,1

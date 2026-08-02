@@ -19,10 +19,6 @@ int main() {
     string command;
     for (int i = 0; i < no_of_lines; i++) {
         getline(cin, command);
-        // flush per line: autograders that read output interactively (write a
-        // command, block for its response, repeat) will deadlock on a fully
-        // buffered pipe otherwise, since the next input never arrives until
-        // this line's output does
-        cout << compass.processCommand(command) << endl;
+        cout << compass.processCommand(command) << '\n';
     }
 }

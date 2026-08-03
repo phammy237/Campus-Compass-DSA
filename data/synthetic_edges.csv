@@ -1,0 +1,670 @@
+LocationID_1,LocationID_2,Name_1,Name_2,Time
+1,1076,Hume Hall,Hume Commons,1
+1,1077,Hume Hall,Hume East,1
+1,1078,Hume Hall,Hume Staff Residence,1
+1,1079,Hume Hall,Hume Support Building,2
+1,1080,Hume Hall,Hume West,1
+2,1034,Graham Hall,East Hall,2
+2,1108,Graham Hall,Materials Engineering,2
+2,1142,Graham Hall,Riker Hall,2
+2,1199,Graham Hall,Weaver Hall,1
+3,4,Broward Hall,Rawlings Hall,2
+3,1136,Broward Hall,Rawlings Plaza,1
+3,1143,Broward Hall,Rinker Hall,1
+3,1152,Broward Hall,Steinbrenner Band Hall,2
+4,1003,Rawlings Hall,Aquatic Food Products Lab,1
+4,1136,Rawlings Hall,Rawlings Plaza,1
+4,1143,Rawlings Hall,Rinker Hall,1
+4,1161,Rawlings Hall,Tropical Ecology & Conservation lab,1
+5,47,J. Wayne Reitz Union,Nuclear Sciences Building,2
+5,1112,J. Wayne Reitz Union,McGuire Pavilion,1
+5,1164,J. Wayne Reitz Union,UF Bookstore & Welcome Center,1
+5,1201,J. Wayne Reitz Union,Wertheim Laboratory for Engineering Excellence,1
+6,13,Marston Science Library,Century Tower,1
+6,39,Marston Science Library,Music Building,1
+6,1003,Marston Science Library,Aquatic Food Products Lab,2
+6,1054,Marston Science Library,Field & Fork Pantry,2
+6,1152,Marston Science Library,Steinbrenner Band Hall,2
+7,20,Computer Science & Engineering,McCarty Hall A,1
+7,1003,Computer Science & Engineering,Aquatic Food Products Lab,1
+7,1054,Computer Science & Engineering,Field & Fork Pantry,1
+7,1061,Computer Science & Engineering,Food Science & Human Nutrition,1
+7,1109,Computer Science & Engineering,McCarty Hall B,1
+7,1110,Computer Science & Engineering,McCarty Hall C,1
+7,1111,Computer Science & Engineering,McCarty Hall D,1
+8,15,The Hub,Newell Hall,1
+8,42,The Hub,Williamson Hall,1
+8,1018,The Hub,Bryant Space Science Center,1
+8,1114,The Hub,Microkelvin Laboratory,1
+9,32,Ben Hill Griffin Stadium,Florida Gymnasium,2
+9,40,Ben Hill Griffin Stadium,Architecture Building,2
+9,1036,Ben Hill Griffin Stadium,Emerson Alumni Hall,3
+9,1060,Ben Hill Griffin Stadium,Florida Pool Office/Lockers,2
+9,1169,Ben Hill Griffin Stadium,UF Foundation Research,4
+9,1181,Ben Hill Griffin Stadium,University Foundation Annex,4
+9,1193,Ben Hill Griffin Stadium,Ustler Hall,2
+10,11,Library West,Smathers Library,2
+10,12,Library West,Plaza of the Americas,1
+10,37,Library West,Keene-Flint Hall,1
+10,38,Library West,Anderson Hall,1
+11,12,Smathers Library,Plaza of the Americas,1
+11,27,Smathers Library,Peabody Hall,1
+11,30,Smathers Library,Criser Hall,1
+11,38,Smathers Library,Anderson Hall,1
+11,1074,Smathers Library,Hough Hall,1
+12,27,Plaza of the Americas,Peabody Hall,1
+12,30,Plaza of the Americas,Criser Hall,1
+12,1068,Plaza of the Americas,Griffin-Floyd Hall,1
+13,14,Century Tower,Turlington Hall,1
+13,21,Century Tower,University Auditorium,1
+13,39,Century Tower,Music Building,1
+13,1152,Century Tower,Steinbrenner Band Hall,2
+14,15,Turlington Hall,Newell Hall,1
+14,21,Turlington Hall,University Auditorium,1
+14,29,Turlington Hall,Rolfs Hall,1
+14,1068,Turlington Hall,Griffin-Floyd Hall,1
+14,1146,Turlington Hall,Sisler Hall,1
+15,29,Newell Hall,Rolfs Hall,1
+15,35,Newell Hall,Pugh Hall,1
+15,1018,Newell Hall,Bryant Space Science Center,1
+16,1123,Weil Hall,Nuclear Training Reactor,1
+16,1139,Weil Hall,Reed Laboratory,1
+16,1205,Weil Hall,Weil Cooling Towers,1
+16,1206,Weil Hall,Engineering Clock Tower,1
+17,23,Little Hall,Carleton Auditorium,1
+17,26,Little Hall,Fine Arts Complex,1
+17,31,Little Hall,Tigert Hall,1
+17,1056,Little Hall,Fine Arts A,1
+17,1058,Little Hall,Fine Arts D,1
+18,1030,Norman Hall,Cypress Hall,3
+18,1119,Norman Hall,Norman Garage,2
+18,1120,Norman Hall,Norman Gym,1
+18,1140,Norman Hall,Reid Hall,2
+18,1172,Norman Hall,UF Innovate | The Hub,7
+19,1008,Beaty Towers,Beaty Commons,1
+19,1010,Beaty Towers,Beaty Tower A,1
+19,1011,Beaty Towers,Beaty Tower B,1
+19,1030,Beaty Towers,Cypress Hall,2
+19,1171,Beaty Towers,UF Housing & Residence Education Office,1
+19,1204,Beaty Towers,Yulee Hall,2
+20,1054,McCarty Hall A,Field & Fork Pantry,1
+20,1109,McCarty Hall A,McCarty Hall B,1
+20,1110,McCarty Hall A,McCarty Hall C,1
+21,23,University Auditorium,Carleton Auditorium,1
+21,24,University Auditorium,Grinter Hall,1
+21,39,University Auditorium,Music Building,1
+22,25,Heavener Hall of Business,Matherly Hall,1
+22,34,Heavener Hall of Business,Gerson Hall,1
+22,41,Heavener Hall of Business,Bryan Hall,1
+22,1072,Heavener Hall of Business,Heavener Hall,1
+23,24,Carleton Auditorium,Grinter Hall,1
+23,28,Carleton Auditorium,Walker Hall,1
+24,27,Grinter Hall,Peabody Hall,1
+24,28,Grinter Hall,Walker Hall,1
+25,38,Matherly Hall,Anderson Hall,1
+25,41,Matherly Hall,Bryan Hall,1
+25,1072,Matherly Hall,Heavener Hall,1
+26,1056,Fine Arts Complex,Fine Arts A,1
+26,1057,Fine Arts Complex,Fine Arts C,1
+26,1058,Fine Arts Complex,Fine Arts D,1
+27,28,Peabody Hall,Walker Hall,1
+27,30,Peabody Hall,Criser Hall,1
+28,30,Walker Hall,Criser Hall,1
+29,35,Rolfs Hall,Pugh Hall,1
+29,1146,Rolfs Hall,Sisler Hall,1
+30,1074,Criser Hall,Hough Hall,1
+31,34,Tigert Hall,Gerson Hall,2
+31,1058,Tigert Hall,Fine Arts D,1
+31,1074,Tigert Hall,Hough Hall,2
+31,1172,Tigert Hall,UF Innovate | The Hub,8
+32,1060,Florida Gymnasium,Florida Pool Office/Lockers,2
+32,1135,Florida Gymnasium,Racquet Club Dining Center,2
+32,1153,Florida Gymnasium,Student Infirmary,1
+32,1154,Florida Gymnasium,Student Recreation & Fitness Center,1
+33,1005,Levin College of Law,Baby Gator,5
+33,1017,Levin College of Law,Bruton-Geer Hall,1
+33,1029,Levin College of Law,Corry Village Commons,4
+33,1031,Levin College of Law,Dasburg House,2
+33,1069,Levin College of Law,Guy Bostick Golf Clubhouse,7
+33,1151,Levin College of Law,Springs Common,2
+33,1183,Levin College of Law,University Womens Club,4
+34,41,Gerson Hall,Bryan Hall,1
+34,1072,Gerson Hall,Heavener Hall,1
+34,1074,Gerson Hall,Hough Hall,1
+35,36,Pugh Hall,Dauer Hall,1
+35,1018,Pugh Hall,Bryant Space Science Center,1
+35,1053,Pugh Hall,Farrior Hall,1
+35,1153,Pugh Hall,Student Infirmary,1
+36,52,Dauer Hall,Buckman Hall,1
+36,1053,Dauer Hall,Farrior Hall,1
+36,1146,Dauer Hall,Sisler Hall,1
+37,52,Keene-Flint Hall,Buckman Hall,1
+37,1024,Keene-Flint Hall,Chemistry Laboratory,1
+37,1144,Keene-Flint Hall,Scott Family Hall,1
+38,41,Anderson Hall,Bryan Hall,2
+39,1152,Music Building,Steinbrenner Band Hall,1
+40,51,Architecture Building,Murphree Hall,1
+40,1060,Architecture Building,Florida Pool Office/Lockers,1
+40,1135,Architecture Building,Racquet Club Dining Center,1
+40,1154,Architecture Building,Student Recreation & Fitness Center,1
+40,1193,Architecture Building,Ustler Hall,1
+41,1072,Bryan Hall,Heavener Hall,1
+41,1074,Bryan Hall,Hough Hall,1
+42,1114,Williamson Hall,Microkelvin Laboratory,1
+42,1139,Williamson Hall,Reed Laboratory,2
+42,1200,Williamson Hall,Weimer Hall,1
+43,45,Malachowsky Hall,Benton Hall,1
+43,46,Malachowsky Hall,Larsen Hall,1
+43,1126,Malachowsky Hall,Phelps Lab,1
+43,1134,Malachowsky Hall,ROTC Rifle Range,1
+43,1164,Malachowsky Hall,UF Bookstore & Welcome Center,2
+44,45,Chemical Engineering Building,Benton Hall,1
+44,46,Chemical Engineering Building,Larsen Hall,1
+44,49,Chemical Engineering Building,New Engineering Building,1
+44,1004,Chemical Engineering Building,Astronomy Teaching Observatory,1
+44,1016,Chemical Engineering Building,Black Hall,1
+44,1023,Chemical Engineering Building,Chemical Engineering Student Center,1
+44,1037,Chemical Engineering Building,Engineering HR South,2
+45,46,Benton Hall,Larsen Hall,1
+45,1023,Benton Hall,Chemical Engineering Student Center,1
+45,1116,Benton Hall,Nanoscale Research Facility,2
+45,1133,Benton Hall,Psychology Building,2
+46,49,Larsen Hall,New Engineering Building,1
+46,1023,Larsen Hall,Chemical Engineering Student Center,1
+46,1116,Larsen Hall,Nanoscale Research Facility,2
+46,1133,Larsen Hall,Psychology Building,1
+47,1122,Nuclear Sciences Building,Nuclear Sciences,1
+47,1123,Nuclear Sciences Building,Nuclear Training Reactor,1
+47,1139,Nuclear Sciences Building,Reed Laboratory,1
+47,1141,Nuclear Sciences Building,Rhines Hall,1
+47,1200,Nuclear Sciences Building,Weimer Hall,1
+47,1201,Nuclear Sciences Building,Wertheim Laboratory for Engineering Excellence,1
+47,1205,Nuclear Sciences Building,Weil Cooling Towers,1
+49,1015,New Engineering Building,Biomedical Sciences Building,3
+49,1016,New Engineering Building,Black Hall,1
+49,1023,New Engineering Building,Chemical Engineering Student Center,1
+49,1028,New Engineering Building,Communicore Building,3
+49,1116,New Engineering Building,Nanoscale Research Facility,1
+49,1124,New Engineering Building,Particle Science & Technology,1
+50,1090,Jennings Hall,Jennings Hall A,1
+50,1091,Jennings Hall,Jennings Hall B,1
+50,1092,Jennings Hall,Jennings Hall C,1
+50,1093,Jennings Hall,Jennings Hall Office,1
+51,1115,Murphree Hall,Murphree Area Commons Building,1
+51,1160,Murphree Hall,Thomas Hall,1
+51,1193,Murphree Hall,Ustler Hall,1
+52,53,Buckman Hall,Fletcher Hall,1
+52,1024,Buckman Hall,Chemistry Laboratory,1
+52,1144,Buckman Hall,Scott Family Hall,1
+52,1147,Buckman Hall,Sledd Hall,1
+53,1115,Fletcher Hall,Murphree Area Commons Building,1
+53,1144,Fletcher Hall,Scott Family Hall,1
+53,1147,Fletcher Hall,Sledd Hall,1
+53,1160,Fletcher Hall,Thomas Hall,1
+54,1066,Tolbert Hall,Gator Corner Dining Center,2
+54,1094,Tolbert Hall,Keys Commons,2
+54,1121,Tolbert Hall,North Hall,1
+54,1142,Tolbert Hall,Riker Hall,1
+54,1194,Tolbert Hall,Van Fleet Hall,1
+55,1097,Keys Residential Complex,Keys Residence House 3,1
+55,1098,Keys Residential Complex,Keys Residence House 4,1
+55,1099,Keys Residential Complex,Keys Residence House 6,1
+55,1100,Keys Residential Complex,Keys Residence House 7,1
+55,1101,Keys Residential Complex,Keys Residence House 8,1
+55,1103,Keys Residential Complex,Keys Residence house 5,1
+56,1004,New Physics Building,Astronomy Teaching Observatory,2
+56,1014,New Physics Building,Biological Nutrient Removal Basins,2
+56,1077,New Physics Building,Hume East,2
+56,1126,New Physics Building,Phelps Lab,1
+56,1134,New Physics Building,ROTC Rifle Range,1
+1000,1104,Administration/Maintenance Building,Lab of Southeastern Archeology,3
+1000,1105,Administration/Maintenance Building,Lakeside Commons,3
+1000,1137,Administration/Maintenance Building,Rec Facilities Score Keeper,2
+1000,1138,Administration/Maintenance Building,Recreation Sports Maintenance,3
+1000,1150,Administration/Maintenance Building,Southwest Recreation Center,3
+1001,1002,Agricultural Engineering Building,Agricultural Engineering Shop,1
+1001,1055,Agricultural Engineering Building,Fifield Hall,3
+1001,1113,Agricultural Engineering Building,Microbiology/Cell Science Building,2
+1001,1128,Agricultural Engineering Building,Plant Pathology Diagnostics Lab,4
+1002,1055,Agricultural Engineering Shop,Fifield Hall,3
+1002,1113,Agricultural Engineering Shop,Microbiology/Cell Science Building,3
+1002,1128,Agricultural Engineering Shop,Plant Pathology Diagnostics Lab,3
+1003,1054,Aquatic Food Products Lab,Field & Fork Pantry,1
+1003,1061,Aquatic Food Products Lab,Food Science & Human Nutrition,1
+1003,1111,Aquatic Food Products Lab,McCarty Hall D,1
+1003,1136,Aquatic Food Products Lab,Rawlings Plaza,1
+1003,1143,Aquatic Food Products Lab,Rinker Hall,1
+1004,1014,Astronomy Teaching Observatory,Biological Nutrient Removal Basins,1
+1004,1026,Astronomy Teaching Observatory,Clarifier (East),1
+1004,1134,Astronomy Teaching Observatory,ROTC Rifle Range,1
+1005,1007,Baby Gator,Bat House,3
+1005,1029,Baby Gator,Corry Village Commons,1
+1005,1031,Baby Gator,Dasburg House,4
+1006,1020,Bartram Hall,Carr Hall,1
+1006,1033,Bartram Hall,Dickinson Hall,1
+1006,1041,Bartram Hall,Environmental Health & Safety,1
+1006,1063,Bartram Hall,Frazier-Rogers Hall,1
+1007,1029,Bat House,Corry Village Commons,4
+1007,1035,Bat House,Elmore Hall,4
+1007,1105,Bat House,Lakeside Commons,5
+1008,1009,Beaty Commons,Beaty Service Building F,1
+1008,1010,Beaty Commons,Beaty Tower A,1
+1008,1011,Beaty Commons,Beaty Tower B,1
+1008,1171,Beaty Commons,UF Housing & Residence Education Office,1
+1009,1010,Beaty Service Building F,Beaty Tower A,1
+1009,1011,Beaty Service Building F,Beaty Tower B,1
+1009,1032,Beaty Service Building F,Diamond Commons,2
+1009,1171,Beaty Service Building F,UF Housing & Residence Education Office,1
+1010,1011,Beaty Tower A,Beaty Tower B,1
+1010,1032,Beaty Tower A,Diamond Commons,2
+1010,1090,Beaty Tower A,Jennings Hall A,1
+1010,1171,Beaty Tower A,UF Housing & Residence Education Office,1
+1011,1032,Beaty Tower B,Diamond Commons,3
+1011,1171,Beaty Tower B,UF Housing & Residence Education Office,1
+1012,1084,Bio-Containment Facility,IFAS Headhouse,1
+1012,1128,Bio-Containment Facility,Plant Pathology Diagnostics Lab,1
+1012,1129,Bio-Containment Facility,Plant Science Facility,1
+1012,1162,Bio-Containment Facility,Turfgrass Envirotron,1
+1013,1055,Bio-Tech Lab,Fifield Hall,2
+1013,1084,Bio-Tech Lab,IFAS Headhouse,1
+1013,1086,Bio-Tech Lab,IFAS Mechanical Equipment Building,1
+1013,1129,Bio-Tech Lab,Plant Science Facility,1
+1013,1195,Bio-Tech Lab,Wallace Building,1
+1014,1026,Biological Nutrient Removal Basins,Clarifier (East),1
+1014,1027,Biological Nutrient Removal Basins,Clarifier (West),1
+1014,1196,Biological Nutrient Removal Basins,Wastewater Filters,1
+1015,1028,Biomedical Sciences Building,Communicore Building,1
+1015,1124,Biomedical Sciences Building,Particle Science & Technology,3
+1015,1175,Biomedical Sciences Building,UF Shands Garage 2,3
+1016,1023,Black Hall,Chemical Engineering Student Center,1
+1016,1037,Black Hall,Engineering HR South,1
+1016,1124,Black Hall,Particle Science & Technology,1
+1017,1031,Bruton-Geer Hall,Dasburg House,3
+1017,1069,Bruton-Geer Hall,Guy Bostick Golf Clubhouse,7
+1017,1151,Bruton-Geer Hall,Springs Common,2
+1017,1183,Bruton-Geer Hall,University Womens Club,4
+1018,1114,Bryant Space Science Center,Microkelvin Laboratory,2
+1018,1153,Bryant Space Science Center,Student Infirmary,1
+1019,1070,CEHT Annex Building,HOP Modular Building,1
+1019,1166,CEHT Annex Building,UF Center for Environmental & Human Toxicology,1
+1019,1177,CEHT Annex Building,UF Toxicology Research Facility,1
+1019,1178,CEHT Annex Building,UF Vet Science Surgery,1
+1020,1033,Carr Hall,Dickinson Hall,1
+1020,1041,Carr Hall,Environmental Health & Safety,1
+1020,1063,Carr Hall,Frazier-Rogers Hall,1
+1021,1059,Center for Outdoor Recreation & Education (CORE),Florida Museum of Natural History,5
+1021,1137,Center for Outdoor Recreation & Education (CORE),Rec Facilities Score Keeper,2
+1021,1138,Center for Outdoor Recreation & Education (CORE),Recreation Sports Maintenance,2
+1021,1150,Center for Outdoor Recreation & Education (CORE),Southwest Recreation Center,1
+1021,1182,Center for Outdoor Recreation & Education (CORE),University Village South Commons,2
+1022,1042,Center for the Study of Emotion & Attention,Environmental Health & Safety Program Support Building,1
+1022,1043,Center for the Study of Emotion & Attention,FLARE Lab,1
+1022,1158,Center for the Study of Emotion & Attention,Sustainable Materials Management Research Lab East,1
+1022,1159,Center for the Study of Emotion & Attention,Sustainable Materials Management Research Lab West,1
+1022,1179,Center for the Study of Emotion & Attention,UF Waste Management Facility,2
+1023,1037,Chemical Engineering Student Center,Engineering HR South,1
+1023,1124,Chemical Engineering Student Center,Particle Science & Technology,1
+1024,1068,Chemistry Laboratory,Griffin-Floyd Hall,1
+1024,1144,Chemistry Laboratory,Scott Family Hall,1
+1024,1146,Chemistry Laboratory,Sisler Hall,1
+1025,1027,Chlorine Contact Chamber,Clarifier (West),1
+1025,1167,Chlorine Contact Chamber,UF Clinical & Translational Research Building,3
+1025,1196,Chlorine Contact Chamber,Wastewater Filters,1
+1025,1197,Chlorine Contact Chamber,Water Reclamation Administration Building,1
+1025,1198,Chlorine Contact Chamber,Water Reclamation Sludge Building,1
+1026,1027,Clarifier (East),Clarifier (West),1
+1026,1196,Clarifier (East),Wastewater Filters,1
+1026,1198,Clarifier (East),Water Reclamation Sludge Building,1
+1027,1196,Clarifier (West),Wastewater Filters,1
+1027,1197,Clarifier (West),Water Reclamation Administration Building,1
+1028,1116,Communicore Building,Nanoscale Research Facility,3
+1028,1175,Communicore Building,UF Shands Garage 2,4
+1029,1031,Corry Village Commons,Dasburg House,3
+1029,1069,Corry Village Commons,Guy Bostick Golf Clubhouse,7
+1030,1107,Cypress Hall,Mallory Hall,1
+1030,1119,Cypress Hall,Norman Garage,3
+1030,1120,Cypress Hall,Norman Gym,2
+1030,1140,Cypress Hall,Reid Hall,1
+1030,1204,Cypress Hall,Yulee Hall,1
+1031,1069,Dasburg House,Guy Bostick Golf Clubhouse,6
+1032,1171,Diamond Commons,UF Housing & Residence Education Office,3
+1033,1041,Dickinson Hall,Environmental Health & Safety,1
+1033,1063,Dickinson Hall,Frazier-Rogers Hall,1
+1034,1066,East Hall,Gator Corner Dining Center,1
+1034,1108,East Hall,Materials Engineering,2
+1034,1121,East Hall,North Hall,1
+1034,1142,East Hall,Riker Hall,1
+1034,1199,East Hall,Weaver Hall,1
+1035,1105,Elmore Hall,Lakeside Commons,2
+1035,1156,Elmore Hall,Surplus Warehouse,2
+1035,1157,Elmore Hall,Surplus/Facilities Annex,1
+1035,1190,Elmore Hall,University of Florida Mail & Documents Services,1
+1036,1060,Emerson Alumni Hall,Florida Pool Office/Lockers,3
+1036,1169,Emerson Alumni Hall,UF Foundation Research,1
+1036,1181,Emerson Alumni Hall,University Foundation Annex,1
+1037,1124,Engineering HR South,Particle Science & Technology,1
+1038,1039,Entomology North Shadehouse,Entomology Shop,1
+1038,1040,Entomology North Shadehouse,Entomology South Shadehouse,1
+1038,1073,Entomology North Shadehouse,Honey Bee Lab,1
+1038,1117,Entomology North Shadehouse,Natural Area Teaching Pavilion,1
+1038,1127,Entomology North Shadehouse,Phillips Center for the Performing Arts,4
+1038,1192,Entomology North Shadehouse,Urban Entomology Lab,1
+1039,1040,Entomology Shop,Entomology South Shadehouse,1
+1039,1073,Entomology Shop,Honey Bee Lab,2
+1039,1117,Entomology Shop,Natural Area Teaching Pavilion,1
+1039,1127,Entomology Shop,Phillips Center for the Performing Arts,4
+1039,1192,Entomology Shop,Urban Entomology Lab,1
+1040,1073,Entomology South Shadehouse,Honey Bee Lab,2
+1040,1117,Entomology South Shadehouse,Natural Area Teaching Pavilion,1
+1040,1192,Entomology South Shadehouse,Urban Entomology Lab,1
+1041,1180,Environmental Health & Safety,UPD Centrex Building,1
+1042,1043,Environmental Health & Safety Program Support Building,FLARE Lab,1
+1042,1075,Environmental Health & Safety Program Support Building,Housing Supply Warehouse,1
+1042,1158,Environmental Health & Safety Program Support Building,Sustainable Materials Management Research Lab East,1
+1042,1159,Environmental Health & Safety Program Support Building,Sustainable Materials Management Research Lab West,1
+1042,1179,Environmental Health & Safety Program Support Building,UF Waste Management Facility,1
+1043,1075,FLARE Lab,Housing Supply Warehouse,1
+1043,1158,FLARE Lab,Sustainable Materials Management Research Lab East,1
+1043,1159,FLARE Lab,Sustainable Materials Management Research Lab West,1
+1043,1179,FLARE Lab,UF Waste Management Facility,2
+1044,1048,Facilities Services Building Services,Facilities Services Grounds Administration,1
+1044,1049,Facilities Services Building Services,Facilities Services Human Resources,1
+1044,1052,Facilities Services Building Services,Facilities Services Training,1
+1044,1174,Facilities Services Building Services,UF Physical Security Department,1
+1044,1186,Facilities Services Building Services,University of Florida Counseling & Wellness Center,1
+1044,1187,Facilities Services Building Services,University of Florida Facilities Services Administration Office,1
+1044,1188,Facilities Services Building Services,University of Florida Facilities Services Central Stores,1
+1045,1046,Facilities Services Garage North,Facilities Services Garage South,1
+1045,1050,Facilities Services Garage North,Facilities Services Masonry Shop,1
+1045,1155,Facilities Services Garage North,Surplus Property Warehouse,1
+1045,1184,Facilities Services Garage North,University of Florida  Facilities Services Maintenance,1
+1045,1185,Facilities Services Garage North,University of Florida Bookstore Warehouse,1
+1046,1047,Facilities Services Garage South,Facilities Services Grounds,1
+1046,1050,Facilities Services Garage South,Facilities Services Masonry Shop,1
+1046,1155,Facilities Services Garage South,Surplus Property Warehouse,1
+1046,1156,Facilities Services Garage South,Surplus Warehouse,1
+1046,1185,Facilities Services Garage South,University of Florida Bookstore Warehouse,1
+1047,1048,Facilities Services Grounds,Facilities Services Grounds Administration,1
+1047,1184,Facilities Services Grounds,University of Florida  Facilities Services Maintenance,1
+1047,1185,Facilities Services Grounds,University of Florida Bookstore Warehouse,1
+1047,1188,Facilities Services Grounds,University of Florida Facilities Services Central Stores,1
+1048,1049,Facilities Services Grounds Administration,Facilities Services Human Resources,1
+1048,1184,Facilities Services Grounds Administration,University of Florida  Facilities Services Maintenance,1
+1048,1186,Facilities Services Grounds Administration,University of Florida Counseling & Wellness Center,1
+1048,1188,Facilities Services Grounds Administration,University of Florida Facilities Services Central Stores,1
+1049,1052,Facilities Services Human Resources,Facilities Services Training,1
+1049,1174,Facilities Services Human Resources,UF Physical Security Department,1
+1049,1187,Facilities Services Human Resources,University of Florida Facilities Services Administration Office,1
+1050,1155,Facilities Services Masonry Shop,Surplus Property Warehouse,1
+1050,1185,Facilities Services Masonry Shop,University of Florida Bookstore Warehouse,1
+1051,1104,Facilities Services Motor Pool,Lab of Southeastern Archeology,2
+1051,1156,Facilities Services Motor Pool,Surplus Warehouse,1
+1051,1157,Facilities Services Motor Pool,Surplus/Facilities Annex,1
+1051,1185,Facilities Services Motor Pool,University of Florida Bookstore Warehouse,1
+1051,1190,Facilities Services Motor Pool,University of Florida Mail & Documents Services,1
+1052,1067,Facilities Services Training,Golf Club Workshop,8
+1052,1184,Facilities Services Training,University of Florida  Facilities Services Maintenance,1
+1052,1187,Facilities Services Training,University of Florida Facilities Services Administration Office,1
+1053,1135,Farrior Hall,Racquet Club Dining Center,1
+1053,1147,Farrior Hall,Sledd Hall,1
+1054,1061,Field & Fork Pantry,Food Science & Human Nutrition,1
+1054,1109,Field & Fork Pantry,McCarty Hall B,1
+1054,1110,Field & Fork Pantry,McCarty Hall C,1
+1055,1084,Fifield Hall,IFAS Headhouse,2
+1055,1086,Fifield Hall,IFAS Mechanical Equipment Building,1
+1055,1113,Fifield Hall,Microbiology/Cell Science Building,3
+1055,1128,Fifield Hall,Plant Pathology Diagnostics Lab,1
+1056,1057,Fine Arts A,Fine Arts C,1
+1056,1058,Fine Arts A,Fine Arts D,1
+1057,1058,Fine Arts C,Fine Arts D,1
+1057,1107,Fine Arts C,Mallory Hall,1
+1057,1140,Fine Arts C,Reid Hall,2
+1059,1127,Florida Museum of Natural History,Phillips Center for the Performing Arts,2
+1059,1150,Florida Museum of Natural History,Southwest Recreation Center,4
+1059,1170,Florida Museum of Natural History,UF Health Florida Surgical Center,7
+1059,1173,Florida Museum of Natural History,UF Orthopaedics & Sports Medicine Institute,5
+1059,1182,Florida Museum of Natural History,University Village South Commons,4
+1060,1135,Florida Pool Office/Lockers,Racquet Club Dining Center,1
+1060,1154,Florida Pool Office/Lockers,Student Recreation & Fitness Center,1
+1060,1169,Florida Pool Office/Lockers,UF Foundation Research,5
+1060,1181,Florida Pool Office/Lockers,University Foundation Annex,4
+1060,1193,Florida Pool Office/Lockers,Ustler Hall,1
+1061,1109,Food Science & Human Nutrition,McCarty Hall B,1
+1061,1111,Food Science & Human Nutrition,McCarty Hall D,1
+1062,1081,Forestry Resource & Conservation Office,IFAS Administrative Services,1
+1062,1082,Forestry Resource & Conservation Office,IFAS Communication Services,1
+1062,1083,Forestry Resource & Conservation Office,IFAS Facilities Office,1
+1062,1087,Forestry Resource & Conservation Office,IFAS Office/Lab,1
+1062,1203,Forestry Resource & Conservation Office,Wildlife Molecular Ecology Office,1
+1063,1118,Frazier-Rogers Hall,Newins-Ziegler Hall,1
+1063,1133,Frazier-Rogers Hall,Psychology Building,2
+1064,1088,Fuel Cell Garage,IFAS Research Laboratory #1,8
+1064,1089,Fuel Cell Garage,IFAS Research Laboratory #2,8
+1064,1148,Fuel Cell Garage,Solar Energy Test House,2
+1064,1149,Fuel Cell Garage,Solar Engineering Lab,1
+1065,1094,Gator Band Shell,Keys Commons,1
+1065,1095,Gator Band Shell,Keys Residence House 10,1
+1065,1101,Gator Band Shell,Keys Residence House 8,2
+1065,1102,Gator Band Shell,Keys Residence House 9,1
+1066,1121,Gator Corner Dining Center,North Hall,1
+1066,1194,Gator Corner Dining Center,Van Fleet Hall,1
+1066,1206,Gator Corner Dining Center,Engineering Clock Tower,1
+1067,1069,Golf Club Workshop,Guy Bostick Golf Clubhouse,8
+1067,1184,Golf Club Workshop,University of Florida  Facilities Services Maintenance,9
+1067,1187,Golf Club Workshop,University of Florida Facilities Services Administration Office,8
+1068,1146,Griffin-Floyd Hall,Sisler Hall,1
+1070,1071,HOP Modular Building,Health Science Center Modular Building,1
+1070,1177,HOP Modular Building,UF Toxicology Research Facility,1
+1070,1178,HOP Modular Building,UF Vet Science Surgery,1
+1071,1125,Health Science Center Modular Building,Pesticide Information Office,3
+1071,1163,Health Science Center Modular Building,UF Aquatic Pathobiology Lab,1
+1071,1177,Health Science Center Modular Building,UF Toxicology Research Facility,1
+1071,1178,Health Science Center Modular Building,UF Vet Science Surgery,1
+1073,1088,Honey Bee Lab,IFAS Research Laboratory #1,6
+1073,1089,Honey Bee Lab,IFAS Research Laboratory #2,6
+1073,1192,Honey Bee Lab,Urban Entomology Lab,1
+1075,1158,Housing Supply Warehouse,Sustainable Materials Management Research Lab East,1
+1075,1159,Housing Supply Warehouse,Sustainable Materials Management Research Lab West,2
+1076,1077,Hume Commons,Hume East,1
+1076,1078,Hume Commons,Hume Staff Residence,1
+1076,1079,Hume Commons,Hume Support Building,1
+1076,1080,Hume Commons,Hume West,1
+1077,1078,Hume East,Hume Staff Residence,1
+1077,1080,Hume East,Hume West,2
+1078,1079,Hume Staff Residence,Hume Support Building,2
+1078,1080,Hume Staff Residence,Hume West,2
+1079,1080,Hume Support Building,Hume West,1
+1081,1082,IFAS Administrative Services,IFAS Communication Services,1
+1081,1083,IFAS Administrative Services,IFAS Facilities Office,1
+1081,1087,IFAS Administrative Services,IFAS Office/Lab,1
+1081,1125,IFAS Administrative Services,Pesticide Information Office,1
+1081,1203,IFAS Administrative Services,Wildlife Molecular Ecology Office,1
+1082,1083,IFAS Communication Services,IFAS Facilities Office,1
+1082,1087,IFAS Communication Services,IFAS Office/Lab,1
+1082,1125,IFAS Communication Services,Pesticide Information Office,2
+1083,1087,IFAS Facilities Office,IFAS Office/Lab,1
+1083,1132,IFAS Facilities Office,Polyhouse 9,2
+1084,1086,IFAS Headhouse,IFAS Mechanical Equipment Building,1
+1084,1129,IFAS Headhouse,Plant Science Facility,1
+1084,1162,IFAS Headhouse,Turfgrass Envirotron,1
+1084,1195,IFAS Headhouse,Wallace Building,1
+1085,1110,IFAS Information Technologies,McCarty Hall C,1
+1085,1112,IFAS Information Technologies,McGuire Pavilion,1
+1085,1118,IFAS Information Technologies,Newins-Ziegler Hall,1
+1085,1202,IFAS Information Technologies,Wildlife Ecology,1
+1086,1128,IFAS Mechanical Equipment Building,Plant Pathology Diagnostics Lab,1
+1086,1195,IFAS Mechanical Equipment Building,Wallace Building,1
+1087,1125,IFAS Office/Lab,Pesticide Information Office,1
+1087,1203,IFAS Office/Lab,Wildlife Molecular Ecology Office,1
+1088,1089,IFAS Research Laboratory #1,IFAS Research Laboratory #2,1
+1088,1148,IFAS Research Laboratory #1,Solar Energy Test House,6
+1088,1149,IFAS Research Laboratory #1,Solar Engineering Lab,8
+1088,1192,IFAS Research Laboratory #1,Urban Entomology Lab,6
+1089,1148,IFAS Research Laboratory #2,Solar Energy Test House,6
+1089,1149,IFAS Research Laboratory #2,Solar Engineering Lab,8
+1089,1192,IFAS Research Laboratory #2,Urban Entomology Lab,6
+1090,1091,Jennings Hall A,Jennings Hall B,1
+1090,1093,Jennings Hall A,Jennings Hall Office,1
+1091,1092,Jennings Hall B,Jennings Hall C,1
+1091,1093,Jennings Hall B,Jennings Hall Office,1
+1091,1180,Jennings Hall B,UPD Centrex Building,1
+1092,1093,Jennings Hall C,Jennings Hall Office,1
+1092,1180,Jennings Hall C,UPD Centrex Building,1
+1093,1180,Jennings Hall Office,UPD Centrex Building,1
+1094,1095,Keys Commons,Keys Residence House 10,1
+1094,1096,Keys Commons,Keys Residence House 2,1
+1094,1097,Keys Commons,Keys Residence House 3,1
+1094,1102,Keys Commons,Keys Residence House 9,1
+1095,1096,Keys Residence House 10,Keys Residence House 2,1
+1095,1097,Keys Residence House 10,Keys Residence House 3,1
+1095,1101,Keys Residence House 10,Keys Residence House 8,1
+1095,1102,Keys Residence House 10,Keys Residence House 9,1
+1096,1097,Keys Residence House 2,Keys Residence House 3,1
+1096,1102,Keys Residence House 2,Keys Residence House 9,1
+1097,1098,Keys Residence House 3,Keys Residence House 4,1
+1097,1101,Keys Residence House 3,Keys Residence House 8,1
+1097,1102,Keys Residence House 3,Keys Residence House 9,1
+1098,1099,Keys Residence House 4,Keys Residence House 6,1
+1098,1100,Keys Residence House 4,Keys Residence House 7,1
+1098,1101,Keys Residence House 4,Keys Residence House 8,1
+1098,1103,Keys Residence House 4,Keys Residence house 5,1
+1098,1183,Keys Residence House 4,University Womens Club,3
+1099,1100,Keys Residence House 6,Keys Residence House 7,1
+1099,1103,Keys Residence House 6,Keys Residence house 5,1
+1099,1151,Keys Residence House 6,Springs Common,3
+1099,1183,Keys Residence House 6,University Womens Club,3
+1100,1101,Keys Residence House 7,Keys Residence House 8,1
+1100,1103,Keys Residence House 7,Keys Residence house 5,1
+1101,1102,Keys Residence House 8,Keys Residence House 9,1
+1103,1183,Keys Residence house 5,University Womens Club,2
+1104,1105,Lab of Southeastern Archeology,Lakeside Commons,2
+1104,1137,Lab of Southeastern Archeology,Rec Facilities Score Keeper,2
+1104,1138,Lab of Southeastern Archeology,Recreation Sports Maintenance,1
+1105,1157,Lakeside Commons,Surplus/Facilities Annex,2
+1105,1190,Lakeside Commons,University of Florida Mail & Documents Services,2
+1106,1138,Maguire Commons,Recreation Sports Maintenance,3
+1106,1170,Maguire Commons,UF Health Florida Surgical Center,6
+1106,1173,Maguire Commons,UF Orthopaedics & Sports Medicine Institute,5
+1106,1174,Maguire Commons,UF Physical Security Department,2
+1106,1182,Maguire Commons,University Village South Commons,3
+1106,1186,Maguire Commons,University of Florida Counseling & Wellness Center,3
+1106,1188,Maguire Commons,University of Florida Facilities Services Central Stores,3
+1107,1140,Mallory Hall,Reid Hall,1
+1107,1204,Mallory Hall,Yulee Hall,1
+1108,1141,Materials Engineering,Rhines Hall,1
+1108,1201,Materials Engineering,Wertheim Laboratory for Engineering Excellence,2
+1108,1205,Materials Engineering,Weil Cooling Towers,1
+1109,1110,McCarty Hall B,McCarty Hall C,1
+1109,1111,McCarty Hall B,McCarty Hall D,1
+1110,1202,McCarty Hall C,Wildlife Ecology,1
+1111,1161,McCarty Hall D,Tropical Ecology & Conservation lab,2
+1112,1118,McGuire Pavilion,Newins-Ziegler Hall,2
+1112,1164,McGuire Pavilion,UF Bookstore & Welcome Center,2
+1112,1202,McGuire Pavilion,Wildlife Ecology,1
+1113,1128,Microbiology/Cell Science Building,Plant Pathology Diagnostics Lab,3
+1114,1200,Microkelvin Laboratory,Weimer Hall,1
+1115,1147,Murphree Area Commons Building,Sledd Hall,1
+1115,1160,Murphree Area Commons Building,Thomas Hall,1
+1116,1133,Nanoscale Research Facility,Psychology Building,1
+1117,1127,Natural Area Teaching Pavilion,Phillips Center for the Performing Arts,3
+1117,1179,Natural Area Teaching Pavilion,UF Waste Management Facility,3
+1117,1192,Natural Area Teaching Pavilion,Urban Entomology Lab,2
+1118,1202,Newins-Ziegler Hall,Wildlife Ecology,1
+1119,1120,Norman Garage,Norman Gym,1
+1119,1140,Norman Garage,Reid Hall,3
+1119,1172,Norman Garage,UF Innovate | The Hub,8
+1120,1140,Norman Gym,Reid Hall,2
+1120,1172,Norman Gym,UF Innovate | The Hub,8
+1121,1142,North Hall,Riker Hall,1
+1121,1194,North Hall,Van Fleet Hall,1
+1121,1199,North Hall,Weaver Hall,1
+1122,1123,Nuclear Sciences,Nuclear Training Reactor,1
+1122,1201,Nuclear Sciences,Wertheim Laboratory for Engineering Excellence,1
+1122,1205,Nuclear Sciences,Weil Cooling Towers,1
+1123,1139,Nuclear Training Reactor,Reed Laboratory,1
+1123,1141,Nuclear Training Reactor,Rhines Hall,1
+1123,1200,Nuclear Training Reactor,Weimer Hall,1
+1123,1201,Nuclear Training Reactor,Wertheim Laboratory for Engineering Excellence,1
+1123,1205,Nuclear Training Reactor,Weil Cooling Towers,1
+1125,1203,Pesticide Information Office,Wildlife Molecular Ecology Office,1
+1126,1134,Phelps Lab,ROTC Rifle Range,1
+1126,1164,Phelps Lab,UF Bookstore & Welcome Center,2
+1128,1162,Plant Pathology Diagnostics Lab,Turfgrass Envirotron,1
+1129,1130,Plant Science Facility,Polyhouse 10,2
+1129,1131,Plant Science Facility,Polyhouse 5,2
+1129,1132,Plant Science Facility,Polyhouse 9,2
+1129,1145,Plant Science Facility,Shadehouse,2
+1129,1162,Plant Science Facility,Turfgrass Envirotron,1
+1129,1195,Plant Science Facility,Wallace Building,2
+1130,1131,Polyhouse 10,Polyhouse 5,1
+1130,1132,Polyhouse 10,Polyhouse 9,1
+1130,1145,Polyhouse 10,Shadehouse,1
+1131,1132,Polyhouse 5,Polyhouse 9,1
+1131,1145,Polyhouse 5,Shadehouse,1
+1132,1145,Polyhouse 9,Shadehouse,1
+1135,1153,Racquet Club Dining Center,Student Infirmary,1
+1135,1154,Racquet Club Dining Center,Student Recreation & Fitness Center,1
+1135,1193,Racquet Club Dining Center,Ustler Hall,1
+1136,1143,Rawlings Plaza,Rinker Hall,1
+1136,1161,Rawlings Plaza,Tropical Ecology & Conservation lab,1
+1137,1138,Rec Facilities Score Keeper,Recreation Sports Maintenance,2
+1137,1150,Rec Facilities Score Keeper,Southwest Recreation Center,2
+1138,1186,Recreation Sports Maintenance,University of Florida Counseling & Wellness Center,2
+1139,1200,Reed Laboratory,Weimer Hall,1
+1139,1205,Reed Laboratory,Weil Cooling Towers,1
+1140,1204,Reid Hall,Yulee Hall,1
+1141,1205,Rhines Hall,Weil Cooling Towers,1
+1141,1206,Rhines Hall,Engineering Clock Tower,1
+1142,1194,Riker Hall,Van Fleet Hall,1
+1142,1199,Riker Hall,Weaver Hall,1
+1143,1152,Rinker Hall,Steinbrenner Band Hall,1
+1143,1161,Rinker Hall,Tropical Ecology & Conservation lab,2
+1147,1160,Sledd Hall,Thomas Hall,1
+1148,1149,Solar Energy Test House,Solar Engineering Lab,3
+1150,1182,Southwest Recreation Center,University Village South Commons,3
+1151,1183,Springs Common,University Womens Club,1
+1153,1154,Student Infirmary,Student Recreation & Fitness Center,1
+1154,1193,Student Recreation & Fitness Center,Ustler Hall,1
+1155,1156,Surplus Property Warehouse,Surplus Warehouse,1
+1155,1185,Surplus Property Warehouse,University of Florida Bookstore Warehouse,1
+1156,1157,Surplus Warehouse,Surplus/Facilities Annex,1
+1156,1185,Surplus Warehouse,University of Florida Bookstore Warehouse,1
+1156,1190,Surplus Warehouse,University of Florida Mail & Documents Services,1
+1157,1185,Surplus/Facilities Annex,University of Florida Bookstore Warehouse,1
+1157,1190,Surplus/Facilities Annex,University of Florida Mail & Documents Services,1
+1158,1159,Sustainable Materials Management Research Lab East,Sustainable Materials Management Research Lab West,1
+1159,1179,Sustainable Materials Management Research Lab West,UF Waste Management Facility,2
+1163,1165,UF Aquatic Pathobiology Lab,UF Cancer & Genetics Research Complex,2
+1163,1166,UF Aquatic Pathobiology Lab,UF Center for Environmental & Human Toxicology,1
+1163,1168,UF Aquatic Pathobiology Lab,UF Emerging Pathogens Institute,1
+1163,1177,UF Aquatic Pathobiology Lab,UF Toxicology Research Facility,1
+1163,1178,UF Aquatic Pathobiology Lab,UF Vet Science Surgery,1
+1165,1166,UF Cancer & Genetics Research Complex,UF Center for Environmental & Human Toxicology,3
+1165,1168,UF Cancer & Genetics Research Complex,UF Emerging Pathogens Institute,1
+1165,1189,UF Cancer & Genetics Research Complex,University of Florida Health Davis Cancer Pavilion,2
+1166,1168,UF Center for Environmental & Human Toxicology,UF Emerging Pathogens Institute,2
+1166,1177,UF Center for Environmental & Human Toxicology,UF Toxicology Research Facility,1
+1166,1178,UF Center for Environmental & Human Toxicology,UF Vet Science Surgery,1
+1167,1176,UF Clinical & Translational Research Building,UF Shands Garage 3,3
+1167,1189,UF Clinical & Translational Research Building,University of Florida Health Davis Cancer Pavilion,3
+1167,1191,UF Clinical & Translational Research Building,University of Florida Medical Plaza,3
+1168,1177,UF Emerging Pathogens Institute,UF Toxicology Research Facility,2
+1169,1181,UF Foundation Research,University Foundation Annex,1
+1170,1173,UF Health Florida Surgical Center,UF Orthopaedics & Sports Medicine Institute,2
+1170,1182,UF Health Florida Surgical Center,University Village South Commons,5
+1173,1182,UF Orthopaedics & Sports Medicine Institute,University Village South Commons,3
+1174,1186,UF Physical Security Department,University of Florida Counseling & Wellness Center,1
+1174,1188,UF Physical Security Department,University of Florida Facilities Services Central Stores,1
+1175,1176,UF Shands Garage 2,UF Shands Garage 3,1
+1175,1191,UF Shands Garage 2,University of Florida Medical Plaza,3
+1176,1189,UF Shands Garage 3,University of Florida Health Davis Cancer Pavilion,3
+1176,1191,UF Shands Garage 3,University of Florida Medical Plaza,2
+1177,1178,UF Toxicology Research Facility,UF Vet Science Surgery,1
+1184,1187,University of Florida  Facilities Services Maintenance,University of Florida Facilities Services Administration Office,2
+1186,1188,University of Florida Counseling & Wellness Center,University of Florida Facilities Services Central Stores,1
+1189,1191,University of Florida Health Davis Cancer Pavilion,University of Florida Medical Plaza,1
+1196,1197,Wastewater Filters,Water Reclamation Administration Building,1
+1196,1198,Wastewater Filters,Water Reclamation Sludge Building,1
+1197,1198,Water Reclamation Administration Building,Water Reclamation Sludge Building,1
+1201,1205,Wertheim Laboratory for Engineering Excellence,Weil Cooling Towers,1
+1205,1206,Weil Cooling Towers,Engineering Clock Tower,1

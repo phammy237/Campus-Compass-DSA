@@ -2,6 +2,7 @@
 
 #include <string>
 #include <unordered_map>
+#include <vector>
 
 #include "Models.h"
 
@@ -11,6 +12,7 @@ class StudentManager {
 public:
     bool hasStudent(const string &ufid) const;
     const Student *getStudent(const string &ufid) const; // nullptr if absent
+    vector<Student> allStudents() const; // unspecified order
 
     bool insertStudent(Student s);  // false if ufid already exists
     bool removeStudent(const string &ufid); // false if ufid not present

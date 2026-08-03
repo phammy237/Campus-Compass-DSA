@@ -18,6 +18,13 @@ const Student *StudentManager::getStudent(const string &ufid) const {
     return it == students_.end() ? nullptr : &it->second;
 }
 
+vector<Student> StudentManager::allStudents() const {
+    vector<Student> result;
+    result.reserve(students_.size());
+    for (const auto &[ufid, student] : students_) result.push_back(student);
+    return result;
+}
+
 bool StudentManager::insertStudent(Student s) {
     if (students_.count(s.ufid) > 0) return false;
     string ufid = s.ufid; // copy the key before moving s into the map's value

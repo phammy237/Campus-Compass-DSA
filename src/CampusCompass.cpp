@@ -59,9 +59,6 @@ bool tryParseInt(const string &token, int &out) {
 
 } // namespace
 
-CampusCompass::CampusCompass() {
-}
-
 bool CampusCompass::ParseCSV(const string &edges_filepath, const string &classes_filepath) {
     ifstream edgesFile(edges_filepath);
     if (!edgesFile.is_open()) return false;
@@ -106,6 +103,59 @@ bool CampusCompass::ParseCSV(const string &edges_filepath, const string &classes
     }
 
     return true;
+}
+
+bool CampusCompass::locationExists(int id) const {
+    return graph_.hasVertex(id);
+}
+
+ShortestPathResult CampusCompass::shortestPath(int from, int to) const {
+    ShortestPathResult result;
+    if (!graph_.hasVertex(from) || !graph_.hasVertex(to)) return result;
+
+    DijkstraResult dijkstraResult = graph_.dijkstra(from);
+    auto it = dijkstraResult.dist.find(to);
+    if (it == dijkstraResult.dist.end()) return result; // unreachable
+
+    result.path = graph_.reconstructPath(dijkstraResult, from, to);
+    result.totalTime = it->second;
+    return result;
+}
+
+namespace {
+StudentInfo toStudentInfo(const Student &s) {
+    StudentInfo info;
+    info.found = true;
+    info.name = s.name;
+    info.ufid = s.ufid;
+    info.residenceId = s.residenceId;
+    info.classCodes = s.classCodes;
+    return info;
+}
+} // namespace
+
+StudentInfo CampusCompass::getStudentInfo(const string &ufid) const {
+    const Student *s = students_.getStudent(ufid);
+    if (!s) return StudentInfo{};
+    return toStudentInfo(*s);
+}
+
+vector<StudentInfo> CampusCompass::allStudents() const {
+    vector<StudentInfo> result;
+    for (const Student &s : students_.allStudents()) result.push_back(toStudentInfo(s));
+    return result;
+}
+
+ZoneResult CampusCompass::studentZone(const string &ufid) const {
+    const Student *s = students_.getStudent(ufid);
+    if (!s) return ZoneResult{};
+
+    set<int> vertices = buildZoneVertices(*s);
+    ZoneResult result;
+    result.found = true;
+    result.cost = graph_.studentZoneMST(vertices);
+    result.vertices.assign(vertices.begin(), vertices.end());
+    return result;
 }
 
 string CampusCompass::processCommand(const string &command) {
@@ -182,8 +232,7 @@ string CampusCompass::handleDropClass(istringstream &args) {
     if (args >> trailing) return "unsuccessful";
     if (!isValidUFID(ufid) || !isValidClassCode(code)) return "unsuccessful";
 
-    bool studentRemoved = false;
-    return students_.dropClass(ufid, code, studentRemoved) ? "successful" : "unsuccessful";
+    return students_.dropClass(ufid, code) ? "successful" : "unsuccessful";
 }
 
 string CampusCompass::handleReplaceClass(istringstream &args) {
@@ -215,15 +264,25 @@ string CampusCompass::handleRemoveClass(istringstream &args) {
 }
 
 string CampusCompass::handleToggleEdgesClosure(istringstream &args) {
-    string tok1, tok2;
-    if (!(args >> tok1 >> tok2)) return "unsuccessful";
+    string countTok;
+    if (!(args >> countTok)) return "unsuccessful";
+    int count;
+    if (!tryParseInt(countTok, count) || count < 1) return "unsuccessful";
+
+    vector<pair<int, int>> pairs;
+    for (int i = 0; i < count; ++i) {
+        string tok1, tok2;
+        if (!(args >> tok1 >> tok2)) return "unsuccessful"; // fewer than `count` pairs supplied
+        int id1, id2;
+        if (!tryParseInt(tok1, id1) || !tryParseInt(tok2, id2)) return "unsuccessful";
+        if (graph_.getEdgeStatus(id1, id2) == EdgeStatus::DNE) return "unsuccessful";
+        pairs.emplace_back(id1, id2);
+    }
     string trailing;
-    if (args >> trailing) return "unsuccessful";
+    if (args >> trailing) return "unsuccessful"; // extra tokens beyond `count` pairs
 
-    int id1, id2;
-    if (!tryParseInt(tok1, id1) || !tryParseInt(tok2, id2)) return "unsuccessful";
-
-    return graph_.toggleEdge(id1, id2) ? "successful" : "unsuccessful";
+    for (const auto &[id1, id2] : pairs) graph_.toggleEdge(id1, id2);
+    return "successful";
 }
 
 string CampusCompass::handleCheckEdgeStatus(istringstream &args) {
@@ -289,22 +348,26 @@ string CampusCompass::handlePrintStudentZone(istringstream &args) {
     const Student *s = students_.getStudent(ufid);
     if (!s) return "unsuccessful";
 
-    DijkstraResult result = graph_.dijkstra(s->residenceId);
-
-    set<int> zoneVertices;
-    zoneVertices.insert(s->residenceId);
-    for (const string &code : s->classCodes) {
-        auto classIt = classes_.find(code);
-        if (classIt == classes_.end()) continue;
-        vector<int> path = graph_.reconstructPath(result, s->residenceId, classIt->second.locationId);
-        for (int v : path) zoneVertices.insert(v); // unreachable classes yield an empty path, contributing nothing
-    }
-
+    set<int> zoneVertices = buildZoneVertices(*s);
     int cost = graph_.studentZoneMST(zoneVertices);
 
     ostringstream out;
     out << "Student Zone Cost For " << s->name << ": " << cost;
     return out.str();
+}
+
+set<int> CampusCompass::buildZoneVertices(const Student &s) const {
+    DijkstraResult result = graph_.dijkstra(s.residenceId);
+
+    set<int> zoneVertices;
+    zoneVertices.insert(s.residenceId);
+    for (const string &code : s.classCodes) {
+        auto classIt = classes_.find(code);
+        if (classIt == classes_.end()) continue;
+        vector<int> path = graph_.reconstructPath(result, s.residenceId, classIt->second.locationId);
+        for (int v : path) zoneVertices.insert(v); // unreachable classes yield an empty path, contributing nothing
+    }
+    return zoneVertices;
 }
 
 string CampusCompass::handleVerifySchedule(istringstream &args) {

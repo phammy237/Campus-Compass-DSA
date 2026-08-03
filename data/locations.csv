@@ -1,0 +1,263 @@
+LocationID,Name,Lat,Lng
+1,Hume Hall,29.644968,-82.352166
+2,Graham Hall,29.646025,-82.350454
+3,Broward Hall,29.646548,-82.342082
+4,Rawlings Hall,29.64631,-82.343419
+5,J. Wayne Reitz Union,29.646224,-82.347741
+6,Marston Science Library,29.64799,-82.343947
+7,Computer Science & Engineering,29.646999,-82.344698
+8,The Hub,29.648155,-82.345519
+9,Ben Hill Griffin Stadium,29.650037,-82.348767
+10,Library West,29.651343,-82.34291
+11,Smathers Library,29.650865,-82.34178
+12,Plaza of the Americas,29.6504,-82.34268
+13,Century Tower,29.648814,-82.343321
+14,Turlington Hall,29.649218,-82.344015
+15,Newell Hall,29.649052,-82.345084
+16,Weil Hall,29.648346,-82.348456
+17,Little Hall,29.648854,-82.340711
+18,Norman Hall,29.64665,-82.337807
+19,Beaty Towers,29.644917,-82.340393
+20,McCarty Hall A,29.646945,-82.34558
+21,University Auditorium,29.649094,-82.342918
+22,Heavener Hall of Business,29.651517,-82.34001
+23,Carleton Auditorium,29.649065,-82.341717
+24,Grinter Hall,29.649278,-82.342077
+25,Matherly Hall,29.651618,-82.341035
+26,Fine Arts Complex,29.648182,-82.340606
+27,Peabody Hall,29.650102,-82.34202
+28,Walker Hall,29.649432,-82.341587
+29,Rolfs Hall,29.649181,-82.34451
+30,Criser Hall,29.650205,-82.34161
+31,Tigert Hall,29.649415,-82.339867
+32,Florida Gymnasium,29.649344,-82.347272
+33,Levin College of Law,29.648985,-82.3591
+34,Gerson Hall,29.650729,-82.340172
+35,Pugh Hall,29.649403,-82.345554
+36,Dauer Hall,29.65004,-82.345019
+37,Keene-Flint Hall,29.651419,-82.344061
+38,Anderson Hall,29.651577,-82.341886
+39,Music Building,29.648203,-82.342899
+40,Architecture Building,29.650448,-82.346895
+41,Bryan Hall,29.651224,-82.340536
+42,Williamson Hall,29.648,-82.34668
+43,Malachowsky Hall,29.644039,-82.347792
+44,Chemical Engineering Building,29.642729,-82.348028
+45,Benton Hall,29.643337,-82.347622
+46,Larsen Hall,29.643185,-82.347378
+47,Nuclear Sciences Building,29.647377,-82.348055
+49,New Engineering Building,29.642287,-82.347187
+50,Jennings Hall,29.644359,-82.341744
+51,Murphree Hall,29.651196,-82.346571
+52,Buckman Hall,29.650794,-82.345004
+53,Fletcher Hall,29.651254,-82.345415
+54,Tolbert Hall,29.64796,-82.351464
+55,Keys Residential Complex,29.64774,-82.354224
+56,New Physics Building,29.644053,-82.349768
+1000,Administration/Maintenance Building,29.639958,-82.366213
+1001,Agricultural Engineering Building,29.638268,-82.363651
+1002,Agricultural Engineering Shop,29.638148,-82.363288
+1003,Aquatic Food Products Lab,29.646904,-82.34399
+1004,Astronomy Teaching Observatory,29.643004,-82.349047
+1005,Baby Gator,29.645376,-82.36051
+1006,Bartram Hall,29.643918,-82.344536
+1007,Bat House,29.644236,-82.362771
+1008,Beaty Commons,29.644375,-82.340597
+1009,Beaty Service Building F,29.643989,-82.340429
+1010,Beaty Tower A,29.644096,-82.340769
+1011,Beaty Tower B,29.644204,-82.340245
+1012,Bio-Containment Facility,29.639501,-82.359967
+1013,Bio-Tech Lab,29.638485,-82.359612
+1014,Biological Nutrient Removal Basins,29.642907,-82.349937
+1015,Biomedical Sciences Building,29.640427,-82.345702
+1016,Black Hall,29.641946,-82.34789
+1017,Bruton-Geer Hall,29.649215,-82.35906
+1018,Bryant Space Science Center,29.648962,-82.345686
+1019,CEHT Annex Building,29.636591,-82.35364
+1020,Carr Hall,29.643861,-82.344896
+1021,Center for Outdoor Recreation & Education (CORE),29.639154,-82.369007
+1022,Center for the Study of Emotion & Attention,29.630643,-82.367741
+1023,Chemical Engineering Student Center,29.642427,-82.34783
+1024,Chemistry Laboratory,29.650878,-82.344135
+1025,Chlorine Contact Chamber,29.641979,-82.349975
+1026,Clarifier (East),29.64251,-82.349747
+1027,Clarifier (West),29.642518,-82.350143
+1028,Communicore Building,29.640857,-82.344934
+1029,Corry Village Commons,29.646392,-82.360893
+1030,Cypress Hall,29.64596,-82.339871
+1031,Dasburg House,29.648192,-82.360822
+1032,Diamond Commons,29.642403,-82.340475
+1033,Dickinson Hall,29.644278,-82.344354
+1034,East Hall,29.647312,-82.350223
+1035,Elmore Hall,29.643429,-82.366155
+1036,Emerson Alumni Hall,29.652487,-82.349069
+1037,Engineering HR South,29.641626,-82.348376
+1038,Entomology North Shadehouse,29.633796,-82.366484
+1039,Entomology Shop,29.633468,-82.366739
+1040,Entomology South Shadehouse,29.633631,-82.366463
+1041,Environmental Health & Safety,29.643535,-82.343911
+1042,Environmental Health & Safety Program Support Building,29.631105,-82.367496
+1043,FLARE Lab,29.631098,-82.367047
+1044,Facilities Services Building Services,29.643405,-82.36991
+1045,Facilities Services Garage North,29.644092,-82.368324
+1046,Facilities Services Garage South,29.643854,-82.368324
+1047,Facilities Services Grounds,29.643454,-82.368795
+1048,Facilities Services Grounds Administration,29.643504,-82.369223
+1049,Facilities Services Human Resources,29.643636,-82.370206
+1050,Facilities Services Masonry Shop,29.644419,-82.368154
+1051,Facilities Services Motor Pool,29.642757,-82.36785
+1052,Facilities Services Training,29.644444,-82.370002
+1053,Farrior Hall,29.650044,-82.345699
+1054,Field & Fork Pantry,29.647082,-82.344752
+1055,Fifield Hall,29.638393,-82.361144
+1056,Fine Arts A,29.648182,-82.340606
+1057,Fine Arts C,29.647728,-82.340454
+1058,Fine Arts D,29.648394,-82.340168
+1059,Florida Museum of Natural History,29.63594,-82.37039
+1060,Florida Pool Office/Lockers,29.650468,-82.347389
+1061,Food Science & Human Nutrition,29.64691,-82.344393
+1062,Forestry Resource & Conservation Office,29.638451,-82.357342
+1063,Frazier-Rogers Hall,29.644435,-82.345506
+1064,Fuel Cell Garage,29.627444,-82.360515
+1065,Gator Band Shell,29.646685,-82.353265
+1066,Gator Corner Dining Center,29.648045,-82.350179
+1067,Golf Club Workshop,29.64995,-82.371726
+1068,Griffin-Floyd Hall,29.650115,-82.343785
+1069,Guy Bostick Golf Clubhouse,29.649918,-82.364946
+1070,HOP Modular Building,29.637162,-82.354189
+1071,Health Science Center Modular Building,29.637516,-82.353926
+1072,Heavener Hall,29.651517,-82.34001
+1073,Honey Bee Lab,29.634605,-82.365668
+1074,Hough Hall,29.650401,-82.340749
+1075,Housing Supply Warehouse,29.631283,-82.366319
+1076,Hume Commons,29.644552,-82.352484
+1077,Hume East,29.644482,-82.351733
+1078,Hume Staff Residence,29.644315,-82.351962
+1079,Hume Support Building,29.644182,-82.353373
+1080,Hume West,29.644517,-82.353236
+1081,IFAS Administrative Services,29.638747,-82.356716
+1082,IFAS Communication Services,29.638759,-82.357331
+1083,IFAS Facilities Office,29.639352,-82.357255
+1084,IFAS Headhouse,29.638695,-82.359887
+1085,IFAS Information Technologies,29.64603,-82.345666
+1086,IFAS Mechanical Equipment Building,29.638454,-82.360276
+1087,IFAS Office/Lab,29.638505,-82.356942
+1088,IFAS Research Laboratory #1,29.633164,-82.36115
+1089,IFAS Research Laboratory #2,29.633156,-82.360915
+1090,Jennings Hall A,29.644364,-82.341726
+1091,Jennings Hall B,29.644024,-82.341997
+1092,Jennings Hall C,29.643791,-82.342506
+1093,Jennings Hall Office,29.644397,-82.342197
+1094,Keys Commons,29.647729,-82.353382
+1095,Keys Residence House 10,29.64737,-82.353505
+1096,Keys Residence House 2,29.648069,-82.353466
+1097,Keys Residence House 3,29.647908,-82.35393
+1098,Keys Residence House 4,29.647881,-82.354314
+1099,Keys Residence House 6,29.647649,-82.354883
+1100,Keys Residence House 7,29.647594,-82.354509
+1101,Keys Residence House 8,29.647554,-82.354129
+1102,Keys Residence House 9,29.647587,-82.353758
+1103,Keys Residence house 5,29.648026,-82.354649
+1104,Lab of Southeastern Archeology,29.641459,-82.367763
+1105,Lakeside Commons,29.641826,-82.366183
+1106,Maguire Commons,29.641138,-82.370802
+1107,Mallory Hall,29.646788,-82.340305
+1108,Materials Engineering,29.646682,-82.349192
+1109,McCarty Hall B,29.646747,-82.344922
+1110,McCarty Hall C,29.646664,-82.34536
+1111,McCarty Hall D,29.646488,-82.344363
+1112,McGuire Pavilion,29.646134,-82.346637
+1113,Microbiology/Cell Science Building,29.639964,-82.363249
+1114,Microkelvin Laboratory,29.648053,-82.34644
+1115,Murphree Area Commons Building,29.651413,-82.345686
+1116,Nanoscale Research Facility,29.642739,-82.346124
+1117,Natural Area Teaching Pavilion,29.633497,-82.367443
+1118,Newins-Ziegler Hall,29.645377,-82.345726
+1119,Norman Garage,29.645503,-82.337496
+1120,Norman Gym,29.646232,-82.337992
+1121,North Hall,29.647902,-82.350734
+1122,Nuclear Sciences,29.647377,-82.348055
+1123,Nuclear Training Reactor,29.647641,-82.34809
+1124,Particle Science & Technology,29.641457,-82.347824
+1125,Pesticide Information Office,29.638628,-82.35604
+1126,Phelps Lab,29.64453,-82.348865
+1127,Phillips Center for the Performing Arts,29.635284,-82.369299
+1128,Plant Pathology Diagnostics Lab,29.63907,-82.360744
+1129,Plant Science Facility,29.639477,-82.359602
+1130,Polyhouse 10,29.640381,-82.358621
+1131,Polyhouse 5,29.640602,-82.358624
+1132,Polyhouse 9,29.64038,-82.358449
+1133,Psychology Building,29.643393,-82.346319
+1134,ROTC Rifle Range,29.643887,-82.348932
+1135,Racquet Club Dining Center,29.650136,-82.34635
+1136,Rawlings Plaza,29.646258,-82.34319
+1137,Rec Facilities Score Keeper,29.639972,-82.367643
+1138,Recreation Sports Maintenance,29.640871,-82.368751
+1139,Reed Laboratory,29.647954,-82.348085
+1140,Reid Hall,29.646458,-82.339842
+1141,Rhines Hall,29.647427,-82.349046
+1142,Riker Hall,29.647482,-82.351182
+1143,Rinker Hall,29.646942,-82.343199
+1144,Scott Family Hall,29.651442,-82.344425
+1145,Shadehouse,29.640605,-82.35845
+1146,Sisler Hall,29.650053,-82.344272
+1147,Sledd Hall,29.650774,-82.345575
+1148,Solar Energy Test House,29.628974,-82.361323
+1149,Solar Engineering Lab,29.627084,-82.360667
+1150,Southwest Recreation Center,29.638413,-82.368381
+1151,Springs Common,29.648708,-82.357112
+1152,Steinbrenner Band Hall,29.6477,-82.342669
+1153,Student Infirmary,29.649514,-82.346559
+1154,Student Recreation & Fitness Center,29.650128,-82.346776
+1155,Surplus Property Warehouse,29.643907,-82.368082
+1156,Surplus Warehouse,29.643483,-82.367645
+1157,Surplus/Facilities Annex,29.643321,-82.367113
+1158,Sustainable Materials Management Research Lab East,29.630744,-82.367221
+1159,Sustainable Materials Management Research Lab West,29.630793,-82.367465
+1160,Thomas Hall,29.651196,-82.346002
+1161,Tropical Ecology & Conservation lab,29.645682,-82.343215
+1162,Turfgrass Envirotron,29.63966,-82.360438
+1163,UF Aquatic Pathobiology Lab,29.637266,-82.352998
+1164,UF Bookstore & Welcome Center,29.645378,-82.348039
+1165,UF Cancer & Genetics Research Complex,29.638031,-82.351567
+1166,UF Center for Environmental & Human Toxicology,29.636773,-82.353074
+1167,UF Clinical & Translational Research Building,29.639804,-82.349768
+1168,UF Emerging Pathogens Institute,29.637241,-82.351931
+1169,UF Foundation Research,29.653046,-82.349677
+1170,UF Health Florida Surgical Center,29.639015,-82.375285
+1171,UF Housing & Residence Education Office,29.644162,-82.339807
+1172,UF Innovate | The Hub,29.649899,-82.333034
+1173,UF Orthopaedics & Sports Medicine Institute,29.638442,-82.373743
+1174,UF Physical Security Department,29.642657,-82.370085
+1175,UF Shands Garage 2,29.638875,-82.346777
+1176,UF Shands Garage 3,29.638655,-82.347765
+1177,UF Toxicology Research Facility,29.637231,-82.353663
+1178,UF Vet Science Surgery,29.63706,-82.353731
+1179,UF Waste Management Facility,29.631746,-82.368154
+1180,UPD Centrex Building,29.643933,-82.343086
+1181,University Foundation Annex,29.652817,-82.349608
+1182,University Village South Commons,29.638744,-82.37101
+1183,University Womens Club,29.649242,-82.356135
+1184,University of Florida  Facilities Services Maintenance,29.64403,-82.369232
+1185,University of Florida Bookstore Warehouse,29.643441,-82.368042
+1186,University of Florida Counseling & Wellness Center,29.64247,-82.369318
+1187,University of Florida Facilities Services Administration Office,29.644313,-82.370532
+1188,University of Florida Facilities Services Central Stores,29.64296,-82.369255
+1189,University of Florida Health Davis Cancer Pavilion,29.637761,-82.349625
+1190,University of Florida Mail & Documents Services,29.642831,-82.367039
+1191,University of Florida Medical Plaza,29.637859,-82.348972
+1192,Urban Entomology Lab,29.633787,-82.366216
+1193,Ustler Hall,29.650448,-82.346895
+1194,Van Fleet Hall,29.648558,-82.351133
+1195,Wallace Building,29.638448,-82.359097
+1196,Wastewater Filters,29.642212,-82.34997
+1197,Water Reclamation Administration Building,29.642019,-82.350215
+1198,Water Reclamation Sludge Building,29.642135,-82.349731
+1199,Weaver Hall,29.647016,-82.350752
+1200,Weimer Hall,29.647862,-82.347331
+1201,Wertheim Laboratory for Engineering Excellence,29.647131,-82.347967
+1202,Wildlife Ecology,29.645814,-82.345762
+1203,Wildlife Molecular Ecology Office,29.638379,-82.356597
+1204,Yulee Hall,29.646219,-82.340361
+1205,Weil Cooling Towers,29.647597,-82.348549
+1206,Engineering Clock Tower,29.648407,-82.349284

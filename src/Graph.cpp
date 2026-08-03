@@ -78,6 +78,28 @@ bool Graph::isConnected(int id1, int id2) const {
     return visited.count(id2) > 0;
 }
 
+bool Graph::isConnected() const {
+    if (adjacency_.empty()) return true;
+
+    unordered_set<int> visited;
+    queue<int> toVisit;
+    int start = adjacency_.begin()->first;
+    visited.insert(start);
+    toVisit.push(start);
+
+    while (!toVisit.empty()) {
+        int current = toVisit.front();
+        toVisit.pop();
+        for (const Edge &e : adjacency_.at(current)) {
+            if (e.open && visited.insert(e.to).second) {
+                toVisit.push(e.to);
+            }
+        }
+    }
+
+    return visited.size() == adjacency_.size();
+}
+
 DijkstraResult Graph::dijkstra(int source) const {
     DijkstraResult result;
     if (!hasVertex(source)) return result;
@@ -173,4 +195,9 @@ int Graph::inducedMST(const unordered_set<int> &vertices) const {
         }
     }
     return totalCost;
+}
+
+int Graph::studentZoneMST(const set<int> &vertices) const {
+    unordered_set<int> asUnordered(vertices.begin(), vertices.end());
+    return inducedMST(asUnordered);
 }

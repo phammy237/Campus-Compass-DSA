@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Campus Compass</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="map"></div>
+
+    <aside id="panel">
+        <h1>Campus Compass</h1>
+
+        <div class="field">
+            <label for="finder-select">Find a building</label>
+            <div id="finder-select" class="searchable-select"></div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" data-tab="explore">Explore</button>
+            <button class="tab" data-tab="students">Students</button>
+            <button class="tab" data-tab="schedule">Schedule Builder</button>
+        </div>
+
+        <!-- Explore: point-to-point shortest path between any two buildings -->
+        <section id="tab-explore" class="tab-panel active">
+            <div class="field">
+                <label for="from-select">From</label>
+                <div id="from-select" class="searchable-select"></div>
+            </div>
+            <div class="field">
+                <label for="to-select">To</label>
+                <div id="to-select" class="searchable-select"></div>
+            </div>
+
+            <button id="find-path-btn">Find Shortest Path</button>
+            <div id="explore-status" class="status"></div>
+
+            <div id="explore-result" class="hidden">
+                <div class="result-time"><span id="result-time"></span> min</div>
+                <ol id="result-steps"></ol>
+            </div>
+
+            <div class="legend">
+                <div><span class="swatch open"></span> Open path</div>
+                <div><span class="swatch closed"></span> Closed path</div>
+                <div><span class="swatch highlight"></span> Shortest route</div>
+            </div>
+        </section>
+
+        <!-- Students: residence + class schedule commands from the assignment -->
+        <section id="tab-students" class="tab-panel">
+            <div id="connectivity-badge" class="badge"></div>
+
+            <div class="field">
+                <label for="student-select">Student</label>
+                <select id="student-select">
+                    <option value="">— select a student —</option>
+                </select>
+            </div>
+
+            <div id="student-details"></div>
+
+            <button id="show-add-student-btn">+ Add Student</button>
+
+            <form id="add-student-form" class="hidden">
+                <div class="field">
+                    <label for="student-name">Name</label>
+                    <input type="text" id="student-name" required maxlength="40" />
+                </div>
+                <div class="field">
+                    <label for="student-ufid">UFID (8 digits)</label>
+                    <input type="text" id="student-ufid" required pattern="\d{8}" maxlength="8" />
+                </div>
+                <div class="field">
+                    <label for="student-residence">Residence</label>
+                    <div id="student-residence" class="searchable-select"></div>
+                </div>
+                <div class="field">
+                    <label>Classes (1&ndash;6)</label>
+                    <div id="student-classes" class="checkbox-list"></div>
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Add</button>
+                    <button type="button" id="cancel-add-student-btn" class="secondary">Cancel</button>
+                </div>
+                <div id="add-student-status" class="status"></div>
+            </form>
+        </section>
+
+        <!-- Schedule Builder: pick courses (not sections), get the section combo
+             that minimizes walking time; finalize to see leave-by times -->
+        <section id="tab-schedule" class="tab-panel">
+            <p class="hint">
+                Synthetic data: an expanded campus of real UF buildings with a synthetic
+                walking-distance graph and multiple synthetic sections per course.
+            </p>
+
+            <div class="field">
+                <label for="schedule-home">Home / residence</label>
+                <div id="schedule-home" class="searchable-select"></div>
+            </div>
+
+            <div class="field">
+                <label for="course-finder-select">Find a course (see where/when it's offered)</label>
+                <div id="course-finder-select" class="searchable-select"></div>
+                <div id="course-finder-result"></div>
+            </div>
+
+            <div class="field">
+                <label>Courses (1&ndash;6)</label>
+                <div id="schedule-courses" class="checkbox-list"></div>
+            </div>
+
+            <button id="recommend-btn">Get Recommendation</button>
+            <div id="schedule-status" class="status"></div>
+
+            <div id="schedule-result" class="hidden">
+                <div class="sub-result" id="schedule-sections"></div>
+                <div class="result-time"><span id="schedule-total-time"></span> min total walking</div>
+                <button id="finalize-schedule-btn" class="secondary-look">Finalize Schedule</button>
+                <div id="schedule-timeline" class="hidden sub-result"></div>
+            </div>
+        </section>
+    </aside>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

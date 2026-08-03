@@ -1,5 +1,6 @@
 #pragma once
 
+#include <set>
 #include <unordered_map>
 #include <unordered_set>
 #include <vector>
@@ -34,6 +35,11 @@ public:
     // false if either vertex is unknown
     bool isConnected(int id1, int id2) const;
 
+    // BFS reachability across the whole graph: true iff every registered vertex
+    // is reachable from an arbitrary start vertex over open edges (vacuously
+    // true for an empty graph)
+    bool isConnected() const;
+
     // Dijkstra over open edges only
     DijkstraResult dijkstra(int source) const;
 
@@ -43,6 +49,9 @@ public:
     // MST cost over the induced subgraph of open edges among `vertices` —
     // a generic graph operation; callers attach any domain meaning to the result
     int inducedMST(const unordered_set<int> &vertices) const;
+
+    // convenience wrapper over inducedMST for callers holding a set<int>
+    int studentZoneMST(const set<int> &vertices) const;
 
 private:
     unordered_map<int, vector<Edge>> adjacency_;

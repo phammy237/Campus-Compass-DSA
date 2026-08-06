@@ -263,6 +263,35 @@ button {
     background: #e8ecfa;
 }
 
+/* mode toggle — segmented control */
+
+.mode-toggle {
+    display: flex;
+    gap: 2px;
+    background: var(--surface);
+    border-radius: var(--radius-sm);
+    padding: 3px;
+}
+
+.mode-btn {
+    flex: 1;
+    padding: 7px 4px;
+    border: none;
+    border-radius: 8px;
+    background: none;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.mode-btn.active {
+    color: var(--uf-blue);
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(20, 25, 40, 0.12);
+}
+
 /* tabs — segmented control */
 
 .tabs {

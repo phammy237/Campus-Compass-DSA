@@ -222,26 +222,53 @@ courseFinderSelect.onChange(code => {
     }
 });
 
-/* ---------- real walking routes (OSRM foot routing, public demo server) ---------- */
+/* ---------- real routes (OSRM routing, public demo server) ---------- */
+
+// OSRM profile per travel mode; selectable via the mode toggle in the panel
+const TRAVEL_MODE_PROFILES = { walk: 'foot', bike: 'bike', drive: 'driving' };
+let travelMode = 'walk';
+
+function haversineMeters(a, b) {
+    const R = 6371000;
+    const p1 = a[0] * Math.PI / 180;
+    const p2 = b[0] * Math.PI / 180;
+    const dp = (b[0] - a[0]) * Math.PI / 180;
+    const dl = (b[1] - a[1]) * Math.PI / 180;
+    const x = Math.sin(dp / 2) ** 2 + Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+}
 
 const walkingRouteCache = new Map();
 
 async function fetchWalkingLeg(a, b) {
-    const key = `${a[0].toFixed(6)},${a[1].toFixed(6)}|${b[0].toFixed(6)},${b[1].toFixed(6)}`;
+    const profile = TRAVEL_MODE_PROFILES[travelMode];
+    const key = `${profile}|${a[0].toFixed(6)},${a[1].toFixed(6)}|${b[0].toFixed(6)},${b[1].toFixed(6)}`;
     if (walkingRouteCache.has(key)) return walkingRouteCache.get(key);
+
+    const straightLine = [a, b];
     try {
-        const url = `https://router.project-osrm.org/route/v1/foot/${a[1]},${a[0]};${b[1]},${b[0]}?overview=full&geometries=geojson`;
+        const url = `https://router.project-osrm.org/route/v1/${profile}/${a[1]},${a[0]};${b[1]},${b[0]}?overview=full&geometries=geojson`;
         const res = await fetch(url);
         if (!res.ok) throw new Error('routing request failed');
         const data = await res.json();
         if (data.code !== 'Ok' || !data.routes || !data.routes.length) throw new Error('no route found');
-        const points = data.routes[0].geometry.coordinates.map(([lon, lat]) => [lat, lon]);
+
+        const route = data.routes[0];
+        const straightMeters = haversineMeters(a, b);
+        // Walking mode only: OSM's campus footway coverage is incomplete, so OSRM
+        // sometimes detours via named roads instead of a direct plaza/quad
+        // crossing. A short leg with a big detour ratio is almost always a
+        // missing-path artifact, not a real obstacle — prefer the direct line.
+        const isSuspiciousDetour = travelMode === 'walk' && straightMeters < 300 && route.distance > straightMeters * 1.6;
+        const points = isSuspiciousDetour
+            ? straightLine
+            : route.geometry.coordinates.map(([lon, lat]) => [lat, lon]);
+
         walkingRouteCache.set(key, points);
         return points;
     } catch (err) {
-        const fallback = [a, b]; // OSRM unreachable/no route: fall back to a straight segment for this leg only
-        walkingRouteCache.set(key, fallback);
-        return fallback;
+        walkingRouteCache.set(key, straightLine); // OSRM unreachable/no route: fall back to a straight segment for this leg only
+        return straightLine;
     }
 }
 
@@ -282,6 +309,25 @@ document.querySelectorAll('.tab').forEach(btn => {
         document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
         btn.classList.add('active');
         document.getElementById(`tab-${btn.dataset.tab}`).classList.add('active');
+    });
+});
+
+/* ---------- travel mode ---------- */
+
+document.querySelectorAll('.mode-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        if (btn.dataset.mode === travelMode) return;
+        document.querySelectorAll('.mode-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        travelMode = btn.dataset.mode;
+
+        // previously-drawn routes reflect the old mode; clear them so nothing
+        // stale is left on the map until the user re-runs a route
+        if (highlightLayer) {
+            map.removeLayer(highlightLayer);
+            highlightLayer = null;
+        }
+        clearScheduleRoute();
     });
 });
 
